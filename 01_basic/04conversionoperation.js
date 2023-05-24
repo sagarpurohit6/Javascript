@@ -32,5 +32,18 @@ console.log(numberToString)
 // 33 =>"33"
 
 
+//operation
+
+let string1= "sagar"
+let string2= " hello"
+let string3 = string1 + string2
+console.log(string3);
+
+console.log("1"+1+2)
+console.log(1+"1"+1)
+console.log(1+5+"6")
+
+
+
 
 
