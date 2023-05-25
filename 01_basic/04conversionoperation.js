@@ -11,7 +11,7 @@ console.log(stringToNumber)
 //number = undefined =>NaN
 //NOTE NaN typof is also number so wherever NaN comes it will give typeof number
 
-let isUserLoggedIn = undefined
+let isUserLoggedIn = undefined;
 
 let boleeanIsUserLoggedIn = Boolean(isUserLoggedIn)
 console.log(typeof boleeanIsUserLoggedIn)
