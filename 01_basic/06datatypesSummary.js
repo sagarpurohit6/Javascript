@@ -37,3 +37,39 @@ const studentObj = {
 
 console.log(studentObj)
 
+
+//stack(primative type) in stack make copy----//heap(non-primitive && refernce type) in heap direct point to orginal value 
+
+
+//stack example
+
+let myMail = "sagar@email.com"
+
+let myMail2 = myMail
+
+console.log(myMail)
+console.log(myMail2)
+
+myMail2="purohit@gmail.com"
+
+console.log(myMail)//will not change because in stack it gives copy of orginal value
+console.log(myMail2)
+
+
+
+//Heap example
+
+let myUser ={
+    name:"sagar",
+    email:"sagar@email.com"
+}
+
+let mySecondUser = myUser
+
+console.log(myUser.email)
+console.log(mySecondUser.email)
+
+mySecondUser.email="purohit@email.com"
+
+console.log(myUser.email);// will change because it stored in heap and it points to direct orginal value 
+console.log(mySecondUser.email);
