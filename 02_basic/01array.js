@@ -7,7 +7,7 @@ console.log(newNumberList);
 
 console.log(numberList.includes(9))//.includes method check whether given value is include in array or not
 
-console.log(newNumberList.join())//.join method conver array into string
+console.log(newNumberList.join())//.join method convert array into string
 
 const numberOf =[11,12,13,14,15];
 numberOf.push(16);//will add nnumber from last 
@@ -15,7 +15,7 @@ console.log(numberOf);
 numberOf.pop();//will remove number from last
 console.log(numberOf);
 
-numberOf.unshift(10)//this will add from start of array but this is not recommended because it shift all previous value 
+numberOf.unshift(10)//this will add from start of array but this is not recommended because it shift all previous value from its location
 console.log(numberOf);
 numberOf.shift()// remove value from start
 console.log(numberOf);
@@ -29,6 +29,6 @@ console.log("b", sliceArray.slice(1,4));//it gives araay from our defined range 
 
 console.log("c after using slice", sliceArray)
 
-console.log("d", sliceArray.splice(1,4))//it removes value from array in defined range and last range is also included
+console.log("d", sliceArray.splice(1,4))//it removes value from exisiting array in defined range and last range is also included
 
 console.log("e after using splice", sliceArray)
